@@ -5,8 +5,8 @@
 }
 
 .calcLocation {
-    width: 300px;
-    height: 430px;
+    width: 400px;
+    height: 600px;
     margin: 0 auto;
     border: 1px solid white;
     margin-top: calc(5%);
@@ -15,21 +15,28 @@
 }
 
 #display {
-    width: 300px;
-    height: 60px;
+    display: flex;
+    width: calc(80%);
+    height: calc(60%);
     outline: none;
     text-align: right;
     cursor: text;
     font-size: xx-large;
+    background-color: rgb(64, 64, 64);
     color: white;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menupad {
-    width: 300px;
-    height: 300px;
+    width: calc(80%);
+    height: calc(60%);
     display: flex;
     flex-wrap: wrap;
     padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button {
